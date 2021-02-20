@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './views/App';
 import store from './store';
 import './index.less';
+import './assets/iconfont/iconfont.css'
 
 ReactDOM.render(
   <React.StrictMode>

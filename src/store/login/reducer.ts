@@ -6,7 +6,6 @@ const defaultState = {
 
 export default (state = defaultState, action: any) => {
   const { type, payload } = action;
-  console.log(action);
 
   switch (type) {
     case LOGIN_TYPE:
